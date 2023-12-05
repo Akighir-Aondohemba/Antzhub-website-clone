@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iN17UoSvYF8FvMyuK10b7wCv3R5aZdes3viqM2Az/6Ls5F86Ir4N7p6b" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-O+hY2B7l374nD7829+e+e5+726t743382028t+s0RtXh+02/u7N4Z+k3215" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+ </head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <a class="navbar-brand" href="#">
+      <img src="./Antzhub pictures/Antzhub Logo.png" alt="Company Logo" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="discoverDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Discover <i class="fas fa-chevron-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="discoverDropdown">
+            
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="insightDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Insight <i class="fas fa-chevron-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="insightDropdown">
+            
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="jumbotron">
+    <h1 class="display-4" style="font-size: 40px;"> We Help Organizations <br> Drive Innovation and</h1>
+    <p class="lead"> <span style="color: #3DE0EF; font-size: 40px;">Technological</span>
+      <span style="font-size: 40px; color: white;"> Advancements </span> <br>
+      <span style="font-size: 40px;"> With AI at the core</span></p>
+
+    <p class="lead" style="color: gold; font-size: 30px;">Speak With an Expert and Let's Do Great Work Together!</p>
+    <button type="button" class="btn btn-outline-light btn-lg" style="border-radius: 50px;">Work With Us</button>
+  </div>
+ 
+  <style>
+       .custom-navbar {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #4285f4; 
+      padding: 10px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px -15px;
+      position: relative;
+    }
+  
+    .nav-link {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+      transition: color 0.3s ease-in-out;
+      padding: 25px;
+      font-weight: bolder;
+      flex-grow: 1; 
+      text-align: center;
+      box-sizing: border-box;
+    }
+  
+    .nav-link:hover {
+      color: #ffffff; 
+      background-color: #0d47a1;
+    }
+  
+    .custom-navbar::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: #00007b;  
+      z-index: -1;
+    }
+  
+    .custom-navbar::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: #00007b;  
+      z-index: -1;
+    }
+  
+    @media only screen and (max-width: 768px) {
+      .custom-navbar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+  
+  <div class="custom-navbar">
+    <a class="nav-link" href="#">Training</a>
+    <a class="nav-link" href="#">Data Analytics</a>
+    <a class="nav-link" href="#">Application Development</a>
+    <a class="nav-link" href="#" style="background-color: #00007b; color: #f0f0ff; font-size: 18px; font-weight: bold;">Discover Antzhub</a>
+  </div>
+  
+  
+  <div>
+  <div class="card-container">
+    <img src="./Antzhub pictures/anzhub-graphic-design-office-simple-inspiration.jpg" alt="office image">
+    <div class="card">
+      <h5 class="card-title">Transforming Modern</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Business to Improve Everyday Lives</h6>
+      <p class="card-text">
+        Antzhub has deep know-how in harnessing the power of technological tools that are relevant to the times to give business owners and public organizations a competitive advantage in the market space. We provide business and public organizations with the right tools to fuel their digital transformation journey and help them get to the market faster.
+      </p>
+      <button type="button" class="btn btn-dark">SEE WHAT WE CAN DO</button>
+    </div>
+  </div>
+  
+   
+
+   <style>
+    /*  shapes */
+    .shape {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #fff;
+      color: #fff; 
+      text-align: center; 
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+ 
+  
+     /* dividers  */ 
+    .divider,
+    .divider1 {
+      margin: 0;
+    }
+  
+   
+    .divider {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .divider1 {
+      font-size: 18px;
+    }
+  </style>
+  
+  <div class="container-fluid">
+    <div class="row flex-wrap" style="height: 20vh; background-color: #ccc;">
+      <div class="col-xs-12 col-sm-6 col-md-4 shape" style="background-color: #999;">
+        <div class="divider">4+</div>
+        <div class="divider1">Winning Political Campaigns</div>
+      </div>
+  
+      <div class="col-xs-12 col-sm-6 col-md-4 shape" style="background-color: #666;">
+        <div class="divider">400+</div>
+        <div class="divider1">Trained</div>
+      </div>
+  
+      <div class="col-xs-12 col-sm-6 col-md-4 shape" style="background-color: #999;">
+        <div class="divider">100+</div>
+        <div class="divider1">Web Applications Built</div>
+      </div>
+    </div>
+  </div>
+  
+
+     <!-- Services -->
+
+     <div style="margin-top:  180px; text-align: center;">
+      <h2 style="text-align: center; margin: 20px 10px;">Our Services</h2>
+      <p style="text-align: center;"> Discover our tech offerings to elevate your business.</p>
+      <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="service-card shadow rounded">
+            <div class="service-card-body p-3">
+              <h5 class="service-card-title" style="font-weight: bold;">Application Development</h5>
+              <p class="service-card-text" style="color: #0d47a1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+              
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="service-card shadow rounded">
+            <div class="service-card-body p-3">
+              <h5 class="service-card-title" style="font-weight: bold;">Data and Analytics</h5>
+              <p class="service-card-text" style="color: #0d47a1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="service-card shadow rounded">
+            <div class="service-card-body p-3">
+              <h5 class="service-card-title" style="font-weight: bold;">Artificial Intelligence</h5>
+              <p class="service-card-text" style="color: #0d47a1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-4">
+          <div class="service-card shadow rounded">
+            <div class="service-card-body p-3">
+              <h5 class="service-card-title" style="font-weight: bold;">Technology Consultancy</h5>
+              <p class="service-card-text" style="color: #0d47a1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="service-card shadow rounded">
+            <div class="service-card-body p-3">
+              <h5 class="service-card-title" style="font-weight: bold;">Training</h5>
+              <p class="service-card-text" style="color: #0d47a1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+          </div>
+        </div>
+ 
+        
+        <div class="col-sm-4">
+          <div class="service-card shadow rounded">
+            <div class="service-card-body p-3">
+              <h5 class="service-card-title" style="font-weight: bold;">Cloud Solution</h5>
+              <p class="service-card-text" style="color: #0d47a1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--email form-->
+  <style>
+    label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* input */
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+  </style>
+
+<!-- Email Form -->
+<div class="container">
+  <div class=".additional-text" style="font-size: xx-large; font-weight: bold; margin-top: 30px;"> <p style="color:aqua ">09096566666</p>
+    Ready to Grow your Business? Give us a Call</div>
+<div class="contact-form">
+  <div class="textarea">
+      <h4>How Can We Assist You in Achieving Your Goals?</h4>
+      <textarea type="text" placeholder="Please provide details about your inquiry" required></textarea>
+  </div>
+  <div class="name-company">
+      <div> 
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" placeholder="Your Full Name" required>
+      </div>
+      <div>
+          <label for="company">Company</label>
+          <input type="text" id="company" placeholder="Your Company Name" required>
+      </div>
+  </div>
+  <div class="email-phone">
+      <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email Address" required>
+      </div>
+      <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Your Phone Number" required>
+      </div>
+  </div>
+  <div class="budget">
+      <label for="budget">Projected Budget</label>
+      <input type="text" id="budget" placeholder="Estimated Budget">
+    </div>
+    <button type="button" style="margin-top: 10px; margin-right: 10px ;">LET'S DO IT</button>
+    </div>
+  </div>
+ 
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="navbar-brand">
+            <img src="./Antzhub pictures/Antzhub Logo.png" alt="Company Logo" class="img-fluid">
+          </a>
+  
+          <p class="company-description">Antzhub leverages cutting-edge technology to provide business owners and public organizations with a competitive advantage in the market space.</p>
+        </div>
+  
+        <div class="col-md-4">
+          <h3>Useful Links</h3>
+  
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4">
+          <h3>Connect With Us</h3>
+  
+          <ul class="list-unstyled">
+            <li><a href="#">(+234) 909-656-6666</a></li>
+            <li><a href="mailto:info@antzhub.com">info@antzhub.com</a></li>
+            <li><a href="#">No 31, Libreville Street, Wuse 2, Abuja, Nigeria</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="last">
+      <div class="container">
+        <p class="text-center">&copy; 2022 Antzhub Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
+      
+    
+    
